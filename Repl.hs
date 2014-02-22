@@ -6,7 +6,7 @@ import Text.ParserCombinators.Parsec (parse)
 import LambdaCalculus
 import Parser
 
--- | environment
+-- | Environment
 type Env = ShowS
 
 createEnv :: String -> String -> Env
